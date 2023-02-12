@@ -8,12 +8,14 @@ $(".saveBtn").on("click", function () {
     localStorage.setItem(time, text);
   });
 
-$("#hour9.description").val(localStorage.getItem("9am"));
-$("#hour10.description").val(localStorage.getItem("10am"));
-$("#hour11.description").val(localStorage.getItem("11am"));
-$("#hour12.description").val(localStorage.getItem("12pm"));
-$("#hour13.description").val(localStorage.getItem("1pm"));
-$("#hour14.description").val(localStorage.getItem("2pm"));
-$("#hour15.description").val(localStorage.getItem("3pm"));
-$("#hour16.description").val(localStorage.getItem("4pm"));
-$("#hour17.description").val(localStorage.getItem("5pm"));
+
+
+$("#9am.description").val(localStorage.getItem("9am"));
+$("#10am.description").val(localStorage.getItem("10am"));
+$("#11am.description").val(localStorage.getItem("11am"));
+$("#12pm.description").val(localStorage.getItem("12pm"));
+$("#1pm.description").val(localStorage.getItem("1pm"));
+$("#2pm.description").val(localStorage.getItem("2pm"));
+$("#3pm.description").val(localStorage.getItem("3pm"));
+$("#4pm.description").val(localStorage.getItem("4pm"));
+$("#5pm.description").val(localStorage.getItem("5pm"));
